@@ -18,7 +18,7 @@ app.title = "Dashboard energia"
 server = app.server
 app.config.suppress_callback_exceptions = True
 
-
+# Cambio realizado en rama katy-viz
 # Load data from csv
 def load_data():
     df = pd.read_csv("datos_energia.csv")
